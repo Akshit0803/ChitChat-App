@@ -1,7 +1,7 @@
 // This is the node server to handle the socket io connections
 
-
-const io = require('socket.io')(8000); // Using socket io on port 8000
+const port = process.env.port || 8000;
+const io = require('socket.io')(port); // Using socket io on port 8000
 
 //socket.io server listening to the incoming events
 
