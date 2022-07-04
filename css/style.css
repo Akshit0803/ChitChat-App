@@ -20,7 +20,7 @@ h1{
     border:2px solid black;
     border-radius: 15px;
     margin: auto; /* Centers the container */
-    height: 70vh;
+    height: 60vh;
     padding:33px;
     margin-bottom: 23px;
     overflow-y: auto;

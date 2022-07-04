@@ -50,5 +50,5 @@ socket.on('receive', data=>{
 })
 // If a user leaves the chat, append the info to the container
 socket.on('user-left', name=>{
-    append(`${name} left the chat`, 'center');
+    append(`${name} left the chat`, 'left');
 })
